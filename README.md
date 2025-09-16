@@ -40,17 +40,21 @@ pip install yt-dlp pillow requests
    ```
 
 2. **Install the required packages:**
+   
+   You should install the exact package versions used in this project by running:
    ```
-   pip install yt-dlp pillow requests
+   pip install -r requirements.txt
    ```
 
 ## Usage
 
 1. **Run the application:**
+   
+   From the root project folder, run:
    ```
    python src/gui.py
    ```
-   to run the file you have to write this in the command line after navigating to the src file
+   Or, navigate to the `src` folder and run:
    ```
    python gui.py
    ```
